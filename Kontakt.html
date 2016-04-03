@@ -5,6 +5,8 @@
 <title>Lovacko društvo</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="treci_zadatak.js"></script>
+
 </HEAD>
 
 <BODY>
@@ -40,16 +42,30 @@
 
 	<div id="divKontakt">
 
-	<form action="kontaktForma">
+	<form id="kontaktForma">
 	 
 	
-	<label for="ime"> Ime i Prezime: </label> <input id="ime" type="text" name="ime"> <br> 
-	
-	<label for="broj"> Broj telefona: </label> <input id="broj" type="text" name="telefon"> <br>	
-	
-	<label for="mail"> e-Mail: </label> <input id="mail" type="text" name="mail"> <br>
+	<label for="ime"> Ime i Prezime: </label> <input id="ime" type="text" name="ime" oninput="validacijaImena(this);"> <br> 
+	<label for="broj"> Broj telefona: </label> <input id="broj" type="text" name="telefon" oninput="validacijaTelefona(this);"> <br>	
+	<label for="mail"> e-Mail: </label> <input id="mail" type="text" name="mail" oninput="validacijaMail(this);"> <br>
 
-
+	<label for="grad"> Grad: </label> <select id="selectGrad" name="gradovi">
+	<option value="nijedan" selected="selected">Nijedan od ponuđenih</option>
+	<option value="vitez">Vitez</option>
+	<option value="travnik">Travnik</option>
+	<option value="zenica">Zenica</option>
+	<option value="kakanj">Kakanj</option>
+	</select>
+	<br>
+	<label id="udruzenje"> Lovačko udruženje: </label> <select id="selectDrustvo" name="udruzenje" onchange="validacijaGradDrustvo ();" >
+	<option value="nijedano" selected="selected">Nisam član LD.</option>
+	<option value="lovac">LD Lovac </option>
+	<option value="sokol">LD Sokol</option>
+	<option value="zenica">LD Zenica</option>
+	<option value="srndac">LD Srndac</option>
+	</select>
+	
+	
 	<input id="posalji" type="button" value="Pošalji" > 
 	
 	

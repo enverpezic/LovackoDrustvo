@@ -30,7 +30,9 @@ header h1 {
 	top: -25px;
 }
 
-
+.hidden {
+	display: none !important;
+}
 
 .mojLogo1 {
     height: 128px;
@@ -125,72 +127,52 @@ section{
     margin-right: auto;
 }
 
-.novostLijevo {
-	width: 400px;
+#novosti{
+	margin-left: 220px;
+	border: 2px solid #059805;
+}
+
+.novostParent{
+	width: 100%;
+    padding-left: 220px;
+}
+
+.novostChild {
+	width: 31%;
 	height: 450px;
 	overflow: hidden;
 	display: inline-block;
 	float: left;
 	border: 2px solid #059805;
-	margin-left: 220px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-right:30px;
 	padding: 0px 5px 5px 10px;
 	background-color: #E9F1A3;
 	font-family: Dosis;
 	
 }
 
-.novostLijevo  h4{
+.novostChild  h4{
 	text-align: center;
 	font-family: Arimo;
 }
 
-.novostLijevo img {
-	width:220px;
-	height:180px;
-}
-
-
-
-.novostDesno {
-	width: 400px;
-	height: 450px;
-	overflow: hidden;
-	display: inline-block;
-	float: right;
-	border: 2px solid #059805;
-	margin-right: 220px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding: 0px 5px 5px 10px;
-	background-color: #E9F1A3;
-	font-family: Dosis;
-}
-
-	
-.novostDesno  h4{
-	text-align: center;
-	font-family: Arimo;
-	
-}
-
-.novostDesno img {
+.novostChild img {
 	width:220px;
 	height:180px;
 }
 
 /* O nama */
 
-#oNamaParag {
-	margin-top: 40px;
-	margin-left: 220px;
-	margin-right: 220px;
+.oNamaParag {
 	font-size: 20px;
 	font-family: Dosis;
 	border: 2px solid #059805;
 	background-color: #E9F1A3;
-	padding: 15px 15px 15px 15px;
+	padding: 15px ;
+	margin-left: 220px;
+	margin-right: 220px;
 }
 
 
@@ -266,11 +248,12 @@ section{
 /* Kontakt Forma */
 
 
-#divKontakt {
+#kontaktForma {
 	
 	border: 2px solid #059805;
 	border-radius: 20%;
-	width: 30%;
+	width: 33%;
+	height: 200px;
     margin-left: auto;
     margin-right: auto;
 	position: relative;
@@ -317,7 +300,26 @@ section{
 #posalji {
 	position: relative;
 	right: 60px;
-	top: 10px;
+	top: 40px;
+}
+
+
+#selectGrad{
+	position: relative;
+	border: 2px solid #059805;
+	display: inline-block;
+	height: 20px;	
+	right: 50px;
+	width: 173px;
+}
+
+#selectDrustvo{
+	position: relative;
+	height: 20px;
+	border: 2px solid #059805;
+	display: inline-block;
+	right: 50px;
+	
 }
 
 
