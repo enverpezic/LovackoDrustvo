@@ -58,35 +58,35 @@ konkretnu divljać i slika.
   </tr>
   <tr class="parni">
     <td>Srndać</td>
-    <td> <img src="slike/srndac.jpg" alt="nemaslike" width="150" height="150"></td> 
+    <td> <img src="Slike/srndac.jpg" alt="nemaslike" width="150" height="150"></td> 
     <td>šuma i planinske poljane</td>
 	<td> 06.juni-30.august</td> 
 	<td> </td> 
   </tr>
    <tr class="neparni">
     <td>Zec</td>
-    <td> <img src="slike/zec.jpg" alt="nemaslike" width="150" height="150"></td> 
+    <td> <img src="Slike/zec.jpg" alt="nemaslike" width="150" height="150"></td> 
     <td>šuma, livade, u blizini poljoprivrednih usjeva</td>
 	<td> 25.oktobar-29.novembar</td> 
 	<td> </td> 
   </tr>
   <tr class="parni">
     <td>Fazan</td>
-    <td> <img src="slike/fazan.gif" alt="nemaslike" width="150" height="150"></td> 
+    <td> <img src="Slike/fazan.gif" alt="nemaslike" width="150" height="150"></td> 
     <td>šuma</td>
 	<td> 25.oktobar-27.decembar</td> 
 	<td> </td> 
   </tr>
   <tr class="neparni">
     <td>Divlja svinja</td>
-    <td> <img src="slike/divlja_svinja.jpg" alt="nemaslike" width="150" height="150"></td> 
+    <td> <img src="Slike/divlja_svinja.jpg" alt="nemaslike" width="150" height="150"></td> 
     <td>šuma</td>
 	<td> 04.oktobar-14.februar</td> 
 	<td> </td> 
   </tr>
   <tr class="parni">
     <td>Lisica</td>
-    <td> <img src="slike/lisica.jpg" alt="nemaslike" width="150" height="150"></td> 
+    <td> <img src="Slike/lisica.jpg" alt="nemaslike" width="150" height="150"></td> 
     <td>šuma</td>
 	<td> 01.septembar-31.mart</td> 
 	<td> </td> 

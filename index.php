@@ -237,7 +237,7 @@ Pari se u februaru i martu. Ženka nosi oko 63 dana. Na svijet donosi od 3 do 8 
 		<p><time class='objavljeno' datetime='".$ispis[2]."'></time></p>
 
 		<h4>".$ispis[0]."</h4>
-		<img src='slike/".$ispis[3]."' alt='".$ispis[3]."' >
+		<img src='Slike/".$ispis[3]."' alt='".$ispis[3]."' >
 		<p>".$ispis[1]."</p>
 		</div>";
 		}
@@ -256,7 +256,7 @@ Pari se u februaru i martu. Ženka nosi oko 63 dana. Na svijet donosi od 3 do 8 
 		<p><time class='objavljeno' datetime='".$ispis[2]."'></time></p>
 
 		<h4>".$ispis[0]."</h4>
-		<img src='slike/".$ispis[3]."' alt='".$ispis[3]."' >
+		<img src='Slike/".$ispis[3]."' alt='".$ispis[3]."' >
 		<p>".$ispis[1]."</p>
 		</div>";
 		}
