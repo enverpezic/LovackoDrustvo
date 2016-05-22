@@ -8,10 +8,27 @@ function validacijaImena(ime){
      if (!regexIme.test(ime.value)){
 		 
 		 document.getElementById("ime").style.backgroundColor = "red";
+		 
      } 
 
 	 else {
 		 document.getElementById("ime").style.backgroundColor = "white";
+	 }
+
+	 
+}
+
+function validacijaNaslova(naslov){
+	
+	var regexIme = /^[A-Z][a-z]+(?:\s[A-Z][a-z]+)+$/g ;
+	
+     if (!regexIme.test(ime.value)){
+		 
+		 document.getElementById("naslov").style.backgroundColor = "red";
+     } 
+
+	 else {
+		 document.getElementById("naslov").style.backgroundColor = "white";
 	 }
 
 	 
@@ -25,12 +42,11 @@ function validacijaTelefona(telefon){
 	var regexTelefon = /^[0-9][0-9]+$/g;
 	
      if (!regexTelefon.test(telefon.value)){
-		 
-		 document.getElementById("broj").style.backgroundColor = "red";
+		 document.getElementsByName("broj").style.backgroundColor = "red";
      } 
-
+	 
 	 else {
-		 document.getElementById("broj").style.backgroundColor = "white";
+		 document.getElementsByName("broj").style.backgroundColor = "white";
 	 }
 
 	 

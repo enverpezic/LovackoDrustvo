@@ -26,7 +26,7 @@
 
 <nav class="meni">
 <ul>
-	<li><a href="Pocetna.php">Početna</a></li>
+	<li><a href="index.php">Početna</a></li>
 	<li><a href="Lov.php">Lov</a></li>
 	<li><a href="O_nama.php">O nama</a></li>
 	<li><a href="Korisni_linkovi.php">Korisni linkovi</a></li>
