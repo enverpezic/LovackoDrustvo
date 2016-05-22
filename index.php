@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <HTML>
 <HEAD>
 <title>Lovacko društvo</title>
-<meta http-equiv="Content-Type" content="text/csv; charset=UTF-8">
+<meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
 
 <script type="text/javascript" src="drugi_zadatak.js"></script>
@@ -59,7 +59,7 @@
 <br>
 <br>
 
-<form action='Pocetna.php' method="POST">
+<form action='index.php' method="POST">
 <div class="sort">
 <input type='submit' name='sortAbeceda' class='sortiraj' value='Sortiraj po abecedi' />
 </div>
@@ -164,7 +164,7 @@ Okupljanjem učesnika, te pozdravnim riječima dobrodošlice predsjednika SLOuBi
 </div>
 
 -->
-
+<!--
 <div class="novostChild">
 <p><time class="objavljeno" datetime="2016-04-03T12:55:00"></time></p>
 
@@ -199,12 +199,10 @@ Pari se u februaru i martu. Ženka nosi oko 63 dana. Na svijet donosi od 3 do 8 
 
 <h4>LOVCI NAJVIŠE TRAŽE FAZANE</h4>
 <img src="slike/omer.jpg" alt="Slika_7" >
-<p>Dvije i po decenije Omer Salić, lovac iz Sjenine kod Doboja bavi se prepariranjem životinja i u svojoj kolekciji ima zanimljive trofeje. Prva životinja koju je preparirao bio je pijetao džijudžan, a jastreb, lisica, zec, kuna, fazan samo su neke od životinja koje je radio do sada.
-
- Najviše posla, kaže Salić, ima na dlakavim trofejima poput srndaća, divlje svinje ili vuka, a najčešće po želji lovaca preparira fazane. Da bi fazan imao što prirodniji izgled, potrebno je najmanje pet sati.
+<p>Dvije i po decenije Omer Salić, lovac iz Sjenine kod Doboja bavi se prepariranjem životinja i u svojoj kolekciji ima zanimljive trofeje. Prva životinja koju je preparirao bio je pijetao džijudžan, a jastreb, lisica, zec, kuna, fazan samo su neke od životinja koje je radio do sada.Najviše posla, kaže Salić, ima na dlakavim trofejima poput srndaća, divlje svinje ili vuka, a najčešće po želji lovaca preparira fazane. Da bi fazan imao što prirodniji izgled, potrebno je najmanje pet sati.
  </p>
 </div>
-
+-->
 
 
 <?php
@@ -234,6 +232,7 @@ Pari se u februaru i martu. Ženka nosi oko 63 dana. Na svijet donosi od 3 do 8 
 		$ispis[1] = str_replace("?x?", ",", $ispis[1]);
 		$ispis[0] = str_replace("?n?", "\n", $ispis[0]);
 		$ispis[1] = str_replace("?n?", "\n", $ispis[1]);
+		
 		print "<div class='novostChild'>
 		<p><time class='objavljeno' datetime='".$ispis[2]."'></time></p>
 
@@ -244,7 +243,7 @@ Pari se u februaru i martu. Ženka nosi oko 63 dana. Na svijet donosi od 3 do 8 
 		}
 	
 	}
-	else {
+	elseif(!isset($_POST['sortAbeceda'])) {
 	  usort($fajl, "sortirajDatum");
 	  
 	  for($i =0; $i < (count($fajl)); $i++){

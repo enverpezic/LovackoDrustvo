@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <HTML>
 
 <HEAD>
 <title>Lovacko društvo</title>
-<meta http-equiv="Content-Type" content="text/csv; charset=UTF-8">
+<meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
 </HEAD>
 
@@ -58,7 +58,7 @@
 				<br>
 				<textarea name="tekstareaTekst" rows="6" cols="35" required></textarea>
 				</div>								
-				<label for="IzborSlike">Izaberite sliku:</label>
+				<label for="Izborslike">Izaberite sliku:</label>
 				<br><br><br>
 				<input type="file" id="slika" name="slika" required>
 				<br>
